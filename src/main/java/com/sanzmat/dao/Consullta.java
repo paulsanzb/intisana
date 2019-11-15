@@ -27,12 +27,12 @@ public class Consullta {
             
             while (resultado.next())
             {
-                System.out.println("Id trabajador: " + resultado.getInt(1));
-                System.out.println("Nombres: " + resultado.getString(2));
-                System.out.println("Apellidos: " + resultado.getString(3));
-                System.out.println("Correo: " + resultado.getString(4));
-                System.out.println("Cedula: " + resultado.getString(5));
-                System.out.println("Telefono: " + resultado.getString(6));
+                System.out.print(" Id trabajador: " + resultado.getInt(1));
+                System.out.print(" Nombres: " + resultado.getString(2));
+                System.out.print(" Apellidos: " + resultado.getString(3));
+                System.out.print(" Correo: " + resultado.getString(4));
+                System.out.print(" Cedula: " + resultado.getString(5));
+                System.out.println(" Telefono: " + resultado.getString(6));
             }
             resultado.close();
             instruccionSQl.close();
